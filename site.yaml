@@ -25,6 +25,12 @@ collections:
     sort: weight asc
     layout: page
 
+  api:
+    directory: content/api
+    permalink: /api/:slug/
+    sort: weight asc
+    layout: api
+
 taxonomies:
   tags:
     permalink: /tags/:slug/
@@ -39,5 +45,11 @@ menus:
       url: /
     - title: Blog
       ref: posts/
+    - title: API
+      url: /api/
     - title: About
       ref: pages/about
+
+search:
+  enabled: true
+  extended: false
