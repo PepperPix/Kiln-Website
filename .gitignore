@@ -1,0 +1,5 @@
+_site/
+.kiln/image-cache/
+tools/ApiDocs/obj/
+tools/ApiDocs/bin/
+.DS_Store
