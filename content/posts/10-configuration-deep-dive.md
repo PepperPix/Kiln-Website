@@ -10,12 +10,12 @@ categories:
   - tutorial
 ---
 
-`site.yaml` is the central configuration file for your Kiln site. This post covers all available options.
+`site.yaml` is the central configuration file for your Engobe site. This post covers all available options.
 
 ## Site Metadata
 
 ```yaml
-title: My Kiln Site
+title: My Engobe Site
 description: A blazingly fast static site generator
 baseUrl: https://example.com
 language: en
@@ -138,6 +138,6 @@ feeds:
 - `markdown.extensions`: Enable CommonMark extensions
 - `feeds`: RSS feeds per collection
 
-Full documentation at [Kiln Docs](https://github.com/PepperPix/Kiln)
+Full documentation at [Engobe Docs](https://github.com/PepperPix/Engobe)
 
-Understanding these options gives you full control over your Kiln site!
+Understanding these options gives you full control over your Engobe site!

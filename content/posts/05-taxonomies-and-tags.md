@@ -10,12 +10,12 @@ categories:
   - features
 ---
 
-**Taxonomies** in Kiln let you organize and cross-reference your content through tags, categories, or any custom dimension.
+**Taxonomies** in Engobe let you organize and cross-reference your content through tags, categories, or any custom dimension.
 
 ## What are Taxonomies?
 
 A taxonomy is a classification system applied to collection items via Frontmatter. Common examples:
-- **Tags**: Topics or keywords (e.g., `kiln`, `getting-started`, `development`)
+- **Tags**: Topics or keywords (e.g., `engobe`, `getting-started`, `development`)
 - **Categories**: Broader groupings (e.g., `tutorial`, `feature`, `announcement`)
 - **Authors**: For multi-author blogs
 - **Years**: For chronological archives
@@ -53,7 +53,7 @@ Simply add a list to your Frontmatter:
 ---
 title: My Post
 tags:
-  - kiln
+  - engobe
   - getting-started
   - documentation
 categories:
@@ -63,8 +63,8 @@ categories:
 
 ## Generated Pages
 
-Kiln automatically generates:
-- `/tags/kiln/` — All posts tagged "kiln"
+Engobe automatically generates:
+- `/tags/engobe/` — All posts tagged "engobe"
 - `/tags/getting-started/` — All posts tagged "getting-started"
 - `/categories/tutorial/` — All posts categorized "tutorial"
 

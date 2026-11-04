@@ -1,6 +1,6 @@
-title: Kiln
+title: Engobe
 description: A fast, extensible static site generator for .NET
-baseUrl: https://kiln.cscharf.de
+baseUrl: https://engobe.studio
 language: en
 theme: default
 

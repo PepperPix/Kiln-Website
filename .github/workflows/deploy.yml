@@ -22,7 +22,7 @@ jobs:
         run: dotnet tool restore
 
       - name: Build site
-        run: dotnet tool run kiln build --base-url https://kiln.cscharf.de
+        run: dotnet tool run engobe build --base-url https://engobe.studio
 
       - name: Upload site
         uses: actions/upload-artifact@v4
@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     needs: build
-    if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.DEPLOY_PATH != '' }}
+    if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -58,4 +58,4 @@ jobs:
           rsync -avz --delete \
             -e "ssh -p ${{ secrets.SSH_PORT || 22 }}" \
             _site/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ vars.DEPLOY_PATH }}
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/opt/docker/site-engobe/

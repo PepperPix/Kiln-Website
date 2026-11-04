@@ -1,19 +1,19 @@
 ﻿---
 id: b33f9414-aca4-4258-9851-e06caf10bb03
-title: Welcome to Kiln
+title: Welcome to Engobe
 date: 2026-08-16
 tags:
-  - kiln
+  - engobe
   - getting-started
 ---
 
-Welcome to **Kiln**, a powerful and flexible static site generator built on .NET.
+Welcome to **Engobe**, a powerful and flexible static site generator built on .NET.
 
-This blog demonstrates all the features Kiln offers out-of-the-box. Read through these posts to learn how Kiln works and what you can build with it.
+This blog demonstrates all the features Engobe offers out-of-the-box. Read through these posts to learn how Engobe works and what you can build with it.
 
-## What is Kiln?
+## What is Engobe?
 
-Kiln transforms your Markdown content into a blazing-fast static website. No database, no server complexity — just pure, fast HTML served anywhere.
+Engobe transforms your Markdown content into a blazing-fast static website. No database, no server complexity — just pure, fast HTML served anywhere.
 
 ## Key Features
 
@@ -23,7 +23,7 @@ Kiln transforms your Markdown content into a blazing-fast static website. No dat
 - **Code Highlighting**: Prism.js integration for syntax highlighting
 - **Page Bundles**: Co-locate assets with your content
 - **Theming**: Flexible template system with Liquid/Scriban
-- **Plugins**: Extend Kiln with custom functionality
+- **Plugins**: Extend Engobe with custom functionality
 - **Performance**: Lightning-fast builds and deployments
 
-Start exploring — each post showcases a different Kiln feature. Happy building!
+Start exploring — each post showcases a different Engobe feature. Happy building!

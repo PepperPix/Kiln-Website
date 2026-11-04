@@ -10,11 +10,11 @@ categories:
   - advanced
 ---
 
-Kiln is already fast, but here are tips to optimize your site further for speed and SEO.
+Engobe is already fast, but here are tips to optimize your site further for speed and SEO.
 
 ## Asset Namespace Optimization
 
-Kiln's Asset Namespace feature organizes assets by content type and location:
+Engobe's Asset Namespace feature organizes assets by content type and location:
 
 ```
 assets/
@@ -76,13 +76,13 @@ This structure:
 
 ```bash
 # Fast rebuild for large sites
-kiln build --incremental
+engobe build --incremental
 
 # Parallel processing (default)
-kiln build --threads 8
+engobe build --threads 8
 ```
 
-Kiln automatically:
+Engobe automatically:
 - Caches intermediate results
 - Parallelizes page generation
 - Skips unchanged files
@@ -90,7 +90,7 @@ Kiln automatically:
 For monitoring:
 
 ```bash
-kiln build --verbose  # Show timing per step
+engobe build --verbose  # Show timing per step
 ```
 
 ## Caching Headers

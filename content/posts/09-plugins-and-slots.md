@@ -8,11 +8,11 @@ tags:
   - architecture
 ---
 
-**Plugins** extend Kiln's functionality without modifying core code. **Slots** are the extension points where plugins hook in.
+**Plugins** extend Engobe's functionality without modifying core code. **Slots** are the extension points where plugins hook in.
 
 ## What are Slots?
 
-Slots are predefined hook points in Kiln's build pipeline where custom logic runs:
+Slots are predefined hook points in Engobe's build pipeline where custom logic runs:
 
 | Slot | When | Purpose |
 |------|------|---------|
@@ -23,12 +23,12 @@ Slots are predefined hook points in Kiln's build pipeline where custom logic run
 
 ## Creating a Plugin
 
-A plugin is a .NET class implementing `IKilnPlugin`:
+A plugin is a .NET class implementing `IEngobePlugin`:
 
 ```csharp
-using Kiln.Core.Plugins;
+using Engobe.Core.Plugins;
 
-public class MyCustomPlugin : IKilnPlugin
+public class MyCustomPlugin : IEngobePlugin
 {
     public string Name => "My Custom Plugin";
     public string Version => "1.0.0";
@@ -81,7 +81,7 @@ plugins:
 
 ## Filesystem Plugin Location
 
-Kiln scans `plugins/` directory for plugin assemblies:
+Engobe scans `plugins/` directory for plugin assemblies:
 
 ```
 plugins/
@@ -92,7 +92,7 @@ plugins/
 
 ## Plugin Discovery
 
-Kiln automatically:
+Engobe automatically:
 - Discovers plugins in `plugins/` and registered NuGet packages
 - Loads plugin assemblies
 - Calls `Register()` on each plugin
@@ -106,4 +106,4 @@ Kiln automatically:
 - **Use meaningful names**: Clear plugin and slot names
 - **Version your plugins**: Semantic versioning
 
-Plugins make Kiln infinitely extensible!
+Plugins make Engobe infinitely extensible!

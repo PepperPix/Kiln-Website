@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenerates content/api from the published Kiln.Core and Kiln.Abstractions NuGet packages.
+# Regenerates content/api from the published Engobe.Core and Engobe.Abstractions NuGet packages.
 # Usage: tools/update-api-docs.sh [version]   (default: contents of api-docs.version)
 set -euo pipefail
 
@@ -10,14 +10,14 @@ version="${1:-$(tr -d '[:space:]' < api-docs.version)}"
 output="content/api"
 tfm="net10.0"
 
-echo "API reference for Kiln $version"
-dotnet restore tools/ApiDocs -p:KilnVersion="$version" --verbosity quiet
+echo "API reference for Engobe $version"
+dotnet restore tools/ApiDocs -p:EngobeVersion="$version" --verbosity quiet
 
 packages="$(dotnet nuget locals global-packages --list | sed 's/^global-packages: *//')"
 packages="${packages%/}"
 
 # Checks every input before anything is written.
-assemblies=(Kiln.Abstractions Kiln.Core)
+assemblies=(Engobe.Abstractions Engobe.Core)
 for name in "${assemblies[@]}"; do
   lower="$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]')"
   dir="$packages/$lower/$version/lib/$tfm"
@@ -39,7 +39,7 @@ for name in "${assemblies[@]}"; do
   lower="$(printf '%s' "$name" | tr '[:upper:]' '[:lower:]')"
   dir="$packages/$lower/$version/lib/$tfm"
   echo "--- $name"
-  dotnet tool run kiln gen dotnet-xml \
+  dotnet tool run engobe gen dotnet-xml \
     --xml "$dir/$name.xml" --assembly "$dir/$name.dll" \
     --output "$output" --project . | grep -v '^written ' || true
 done

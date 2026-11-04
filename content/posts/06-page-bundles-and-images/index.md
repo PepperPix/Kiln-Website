@@ -65,7 +65,7 @@ In your Markdown, reference assets by relative path:
 [Download PDF](./resources.pdf)
 ```
 
-When Kiln builds, it:
+When Engobe builds, it:
 1. **Copies** `header.png` to `_site/assets/content/posts/my-post/`
 2. **Updates** the Markdown link to `/assets/content/posts/my-post/header.png`
 3. **Preserves** the file with its original name and format
@@ -85,7 +85,7 @@ This namespace makes cache-busting and organization predictable.
 1. Create a directory: `content/posts/my-post/`
 2. Move your post content to `index.md.template`
 3. Add images/assets to the same directory
-4. Kiln handles the rest!
+4. Engobe handles the rest!
 
 ```bash
 mkdir -p content/posts/my-new-post
@@ -137,4 +137,4 @@ my-post/
 
 Page bundles are a powerful way to organize scalable content sites!
 
-See the Kiln Architecture diagram below — this entire post is a page bundle!
+See the Engobe Architecture diagram below — this entire post is a page bundle!

@@ -8,13 +8,13 @@ tags:
   - syntax-highlighting
 ---
 
-Kiln integrates **Prism.js** for beautiful syntax highlighting across all supported languages.
+Engobe integrates **Prism.js** for beautiful syntax highlighting across all supported languages.
 
 ## C# Example
 
 ```csharp
 using System;
-using Kiln.Core;
+using Engobe.Core;
 
 public class SiteBuilder
 {
@@ -36,7 +36,7 @@ public class SiteBuilder
 ## JavaScript/TypeScript
 
 ```javascript
-// Frontend interactivity with Kiln
+// Frontend interactivity with Engobe
 class SiteNavigator {
   constructor(rootSelector) {
     this.root = document.querySelector(rootSelector);
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 ## YAML Configuration
 
 ```yaml
-title: My Kiln Site
+title: My Engobe Site
 description: A blazingly fast static site
 baseUrl: https://example.com
 theme: default

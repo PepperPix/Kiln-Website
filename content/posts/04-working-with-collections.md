@@ -7,7 +7,7 @@ tags:
   - architecture
 ---
 
-**Collections** are the heart of Kiln. They organize your content into logical groups with consistent structure, metadata, and rendering.
+**Collections** are the heart of Engobe. They organize your content into logical groups with consistent structure, metadata, and rendering.
 
 ## What is a Collection?
 
@@ -19,7 +19,7 @@ A collection is a directory of content items (Markdown files) that share:
 
 ## Built-in Collections
 
-Kiln includes two default collections:
+Engobe includes two default collections:
 
 ### Posts Collection
 
@@ -78,7 +78,7 @@ This metadata is available in templates for navigation, related posts, and more.
 
 ## Accessing Collections
 
-In Kiln templates, you can iterate over collections:
+In Engobe templates, you can iterate over collections:
 
 ```liquid
 {% for post in collections.posts %}

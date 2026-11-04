@@ -1,6 +1,6 @@
 ﻿---
 id: c4d8a5b3-804b-4cb4-be6a-726beac6bca4
-title: Theming with Kiln
+title: Theming with Engobe
 date: 2026-08-11
 tags:
   - themes
@@ -8,11 +8,11 @@ tags:
   - design
 ---
 
-Kiln's theming system makes it easy to customize the look and feel of your site without touching core functionality.
+Engobe's theming system makes it easy to customize the look and feel of your site without touching core functionality.
 
 ## Theme Structure
 
-A Kiln theme is organized as:
+A Engobe theme is organized as:
 
 ```
 themes/
@@ -64,7 +64,7 @@ Reusable components reduce repetition:
 
 ## CSS Variables
 
-The default Kiln theme uses CSS custom properties (variables) for easy customization:
+The default Engobe theme uses CSS custom properties (variables) for easy customization:
 
 ```css
 :root {
@@ -101,4 +101,4 @@ Static assets (CSS, images) in `themes/*/static/` are served at:
 
 Keep your static assets organized for easy maintainability.
 
-Theming in Kiln is flexible, fast, and beginner-friendly!
+Theming in Engobe is flexible, fast, and beginner-friendly!

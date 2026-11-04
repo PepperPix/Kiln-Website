@@ -1,10 +1,10 @@
 ﻿---
 title: Welcome to Website
 layout: home
-description: The homepage of Website, built with Kiln.
+description: The homepage of Website, built with Engobe.
 ---
 
-This is your new Kiln site. Edit `content/index.md` to change this homepage, and
+This is your new Engobe site. Edit `content/index.md` to change this homepage, and
 look at the **Latest posts** list below — it is generated automatically from your
 `posts` collection.
 

@@ -1,6 +1,6 @@
 ﻿---
 id: 0aaa10a3-7feb-4a25-813a-f867ca422868
-title: What's Next? Your Kiln Journey Continues
+title: What's Next? Your Engobe Journey Continues
 date: 2026-08-06
 tags:
   - roadmap
@@ -8,21 +8,21 @@ tags:
   - getting-involved
 ---
 
-You've explored Kiln's core features. Here's how to continue your journey and contribute to the project.
+You've explored Engobe's core features. Here's how to continue your journey and contribute to the project.
 
 ## Next Steps
 
 ### Build Your Own Site
 
-- **Copy this theme**: Use the default Kiln theme as a starting point
+- **Copy this theme**: Use the default Engobe theme as a starting point
 - **Create custom collections**: Portfolio, documentation, wiki
 - **Design your layout**: Modify CSS variables and templates
 - **Deploy**: Choose a platform (GitHub Pages, Netlify, Azure SWA)
-- **Celebrate**: Share your Kiln-powered site with the community
+- **Celebrate**: Share your Engobe-powered site with the community
 
 ### Explore Advanced Features
 
-- **Plugins**: Extend Kiln with custom functionality
+- **Plugins**: Extend Engobe with custom functionality
 - **Custom taxonomies**: Organize content your way
 - **Liquid filters**: Create powerful templates
 - **Asset namespacing**: Better asset management
@@ -39,9 +39,8 @@ You've explored Kiln's core features. Here's how to continue your journey and co
 
 ### Documentation
 
-- [GitHub README](https://github.com/PepperPix/Kiln) — Quick start and API reference
-- [Examples Repository](https://github.com/PepperPix/Kiln-Examples) — Real-world samples
-- [Discussion Board](https://github.com/PepperPix/Kiln/discussions) — Ask questions
+- [GitHub README](https://github.com/PepperPix/Engobe) — Quick start and API reference
+- [Discussion Board](https://github.com/PepperPix/Engobe/discussions) — Ask questions
 
 ### Community
 
@@ -53,7 +52,7 @@ Join our community:
 
 ## Roadmap
 
-Planned features for Kiln:
+Planned features for Engobe:
 
 - **Search**: Built-in full-text search
 - **Comments**: Disqus/Utterances integration
@@ -63,11 +62,11 @@ Planned features for Kiln:
 - **Internationalization**: Multi-language sites
 - **E-commerce**: Product management
 
-Check [GitHub Issues](https://github.com/PepperPix/Kiln/issues) for active development.
+Check [GitHub Issues](https://github.com/PepperPix/Engobe/issues) for active development.
 
 ## Contributing
 
-Help make Kiln better:
+Help make Engobe better:
 
 1. **Report bugs**: Found an issue? Create a GitHub issue with details
 2. **Suggest features**: Share ideas in Discussions
@@ -79,22 +78,22 @@ All contributions are welcome!
 
 ## Say Thank You
 
-If you love Kiln:
-- ⭐ **Star** the [GitHub repository](https://github.com/PepperPix/Kiln)
+If you love Engobe:
+- ⭐ **Star** the [GitHub repository](https://github.com/PepperPix/Engobe)
 - 📢 **Share** your site with the community
-- 💬 **Mention** Kiln in your blog or talks
+- 💬 **Mention** Engobe in your blog or talks
 - 🤝 **Contribute** code or feedback
 
 ## Final Thoughts
 
-Kiln is designed to be:
+Engobe is designed to be:
 - **Fast**: Blazing-fast builds and deployments
 - **Simple**: Markdown in, static HTML out
 - **Powerful**: Flexible enough for any static site
 - **Community-driven**: Your feedback shapes the roadmap
 
-Thank you for exploring Kiln. Happy building! 🚀
+Thank you for exploring Engobe. Happy building! 🚀
 
 ---
 
-*Questions? Join the community at [github.com/PepperPix/Kiln](https://github.com/PepperPix/Kiln)*
+*Questions? Join the community at [github.com/PepperPix/Engobe](https://github.com/PepperPix/Engobe)*
