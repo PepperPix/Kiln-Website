@@ -8,11 +8,11 @@ tags:
   - hosting
 ---
 
-Once you've built your Kiln site, deploying it is straightforward. Static sites can be hosted anywhere.
+Once you've built your Engobe site, deploying it is straightforward. Static sites can be hosted anywhere.
 
 ## Build Output
 
-Running `kiln build` generates a `_site/` directory with:
+Running `engobe build` generates a `_site/` directory with:
 - Static HTML files
 - CSS and JavaScript
 - Images and other assets
@@ -21,7 +21,7 @@ This entire directory is what you deploy.
 
 ## GitHub Pages
 
-GitHub Pages is perfect for Kiln sites hosted on GitHub:
+GitHub Pages is perfect for Engobe sites hosted on GitHub:
 
 1. Push your site to a GitHub repository
 2. In repository settings, enable GitHub Pages
@@ -46,7 +46,7 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '10.x'
-      - run: dotnet run --project src/Kiln.Cli -- build .
+      - run: dotnet run --project src/Engobe.Cli -- build .
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -70,7 +70,7 @@ Netlify's drag-and-drop interface makes deployment simple:
 1. Create a `netlify.toml`:
    ```toml
    [build]
-   command = "dotnet run --project src/Kiln.Cli -- build ."
+   command = "dotnet run --project src/Engobe.Cli -- build ."
    publish = "_site"
    ```
 2. Connect your GitHub repository in Netlify Dashboard
@@ -81,7 +81,7 @@ Netlify's drag-and-drop interface makes deployment simple:
 Vercel works similarly to Netlify:
 
 1. Import your GitHub project
-2. Set build command: `dotnet run --project src/Kiln.Cli -- build .`
+2. Set build command: `dotnet run --project src/Engobe.Cli -- build .`
 3. Set output directory: `_site`
 4. Deploy with one click
 
@@ -89,7 +89,7 @@ Vercel works similarly to Netlify:
 
 For any web server (Apache, Nginx, custom VPS):
 
-1. Build locally: `kiln build`
+1. Build locally: `engobe build`
 2. Upload `_site/` directory via FTP, SCP, or Git
 3. Configure your web server to serve the content
 4. Optionally set up automated deployments with webhooks
@@ -101,4 +101,4 @@ For any web server (Apache, Nginx, custom VPS):
 - Set proper cache headers for static assets
 - Minify CSS and JavaScript (optional, can be added as build step)
 
-Deploying a Kiln site is as simple as uploading static files. Choose the platform that fits your needs!
+Deploying a Engobe site is as simple as uploading static files. Choose the platform that fits your needs!

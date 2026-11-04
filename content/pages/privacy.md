@@ -6,7 +6,7 @@ weight: 20
 
 ## Privacy Policy
 
-This site is built with **Kiln**, a static site generator. No user data is collected, stored, or transmitted.
+This site is built with **Engobe**, a static site generator. No user data is collected, stored, or transmitted.
 
 ### What data do we collect?
 

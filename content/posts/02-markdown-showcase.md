@@ -7,7 +7,7 @@ tags:
   - formatting
 ---
 
-This post demonstrates Markdown formatting capabilities supported by Kiln.
+This post demonstrates Markdown formatting capabilities supported by Engobe.
 
 ## Headings
 
@@ -52,11 +52,11 @@ You can create ~~strikethrough~~ text and `inline code`.
 
 ## Links and Images
 
-[Link to Kiln repository](https://github.com/PepperPix/Kiln)
+[Link to Engobe repository](https://github.com/PepperPix/Engobe)
 
 Images are embedded the same way as Markdown links, with an exclamation mark prefix:
 
-![Kiln Logo](/assets/favicon.svg)
+![Engobe Logo](/assets/favicon.svg)
 
 ## Code Blocks
 
@@ -66,7 +66,7 @@ Code blocks are created with triple backticks and optional language identifier:
 
 ```
 // Plain text code block
-const greeting = "Hello, Kiln!";
+const greeting = "Hello, Engobe!";
 ```
 
 Learn more about code highlighting in the next post!

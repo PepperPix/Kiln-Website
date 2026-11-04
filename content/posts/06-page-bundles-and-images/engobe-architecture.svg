@@ -1,7 +1,7 @@
 ﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px;">
   <!-- Title -->
   <text x="300" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
-    Kiln Architecture Overview
+    Engobe Architecture Overview
   </text>
 
   <!-- Content Layer -->
